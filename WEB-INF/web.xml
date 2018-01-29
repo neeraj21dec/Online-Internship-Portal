@@ -1,0 +1,706 @@
+<web-app>
+
+<servlet>
+    <servlet-name>ViewInternshipWL</servlet-name>
+	<servlet-class>ViewInternshipWL</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>ViewInternshipWL</servlet-name>
+	<url-pattern>/ViewInternshipWL</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>Registration</servlet-name>
+	<servlet-class>Registration</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>Registration</servlet-name>
+	<url-pattern>/Registration</url-pattern>
+</servlet-mapping>
+
+
+
+<servlet>
+    <servlet-name>AdminLogin</servlet-name>
+	<servlet-class>AdminLogin</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>AdminLogin</servlet-name>
+	<url-pattern>/AdminLogin</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+    <servlet-name>AdminLoginCheck</servlet-name>
+	<servlet-class>AdminLoginCheck</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>AdminLoginCheck</servlet-name>
+	<url-pattern>/AdminLoginCheck</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>Admin2</servlet-name>
+	<servlet-class>Admin2</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>Admin2</servlet-name>
+	<url-pattern>/Admin2</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>DCompany</servlet-name>
+	<servlet-class>DCompany</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>DCompany</servlet-name>
+	<url-pattern>/DCompany</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>AdminViewEducator</servlet-name>
+	<servlet-class>AdminViewEducator</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>AdminViewEducator</servlet-name>
+	<url-pattern>/AdminViewEducator</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>AdminStartupList</servlet-name>
+	<servlet-class>AdminStartupList</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>AdminStartupList</servlet-name>
+	<url-pattern>/AdminStartupList</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>AdminAddStartup2</servlet-name>
+	<servlet-class>AdminAddStartup2</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>AdminAddStartup2</servlet-name>
+	<url-pattern>/AdminAddStartup2</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>AdminAddStartup1</servlet-name>
+	<servlet-class>AdminAddStartup1</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>AdminAddStartup1</servlet-name>
+	<url-pattern>/AdminAddStartup1</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>AdminDeleteResume</servlet-name>
+	<servlet-class>AdminDeleteResume</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>AdminDeleteResume</servlet-name>
+	<url-pattern>/AdminDeleteResume</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>AdminResumeView</servlet-name>
+	<servlet-class>AdminResumeView</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>AdminResumeView</servlet-name>
+	<url-pattern>/AdminResumeView</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>AdminMessageView</servlet-name>
+	<servlet-class>AdminMessageView</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>AdminMessageView</servlet-name>
+	<url-pattern>/AdminMessageView</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+    <servlet-name>ViewAllInternships</servlet-name>
+	<servlet-class>ViewAllInternships</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>ViewAllInternships</servlet-name>
+	<url-pattern>/ViewAllInternships</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+    <servlet-name>DInternshipbyID</servlet-name>
+	<servlet-class>DInternshipbyID</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>DInternshipbyID</servlet-name>
+	<url-pattern>/DInternshipbyID</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>ViewInternshipbyID</servlet-name>
+	<servlet-class>ViewInternshipbyID</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>ViewInternshipbyID</servlet-name>
+	<url-pattern>/ViewInternshipbyID</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>DeleteUser</servlet-name>
+	<servlet-class>DeleteUser</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>DeleteUser</servlet-name>
+	<url-pattern>/DeleteUser</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+    <servlet-name>ViewUser</servlet-name>
+	<servlet-class>ViewUser</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>ViewUser</servlet-name>
+	<url-pattern>/ViewUser</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>DInternloc</servlet-name>
+	<servlet-class>DInternloc</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>DInternloc</servlet-name>
+	<url-pattern>/DInternloc</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+    <servlet-name>AddInternloc</servlet-name>
+	<servlet-class>AddInternloc</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>AddInternloc</servlet-name>
+	<url-pattern>/AddInternloc</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>DInterncat</servlet-name>
+	<servlet-class>DInterncat</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>DInterncat</servlet-name>
+	<url-pattern>/DInterncat</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>AddInterncat</servlet-name>
+	<servlet-class>AddInterncat</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>AddInterncat</servlet-name>
+	<url-pattern>/AddInterncat</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>DAdmin</servlet-name>
+	<servlet-class>DAdmin</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>DAdmin</servlet-name>
+	<url-pattern>/DAdmin</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+    <servlet-name>DeleteAdmin</servlet-name>
+	<servlet-class>DeleteAdmin</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>DeleteAdmin</servlet-name>
+	<url-pattern>/DeleteAdmin</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>AddAdmin</servlet-name>
+	<servlet-class>AddAdmin</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>AddAdmin</servlet-name>
+	<url-pattern>/AddAdmin</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>MakeAdmin</servlet-name>
+	<servlet-class>MakeAdmin</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>MakeAdmin</servlet-name>
+	<url-pattern>/MakeAdmin</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>UpdateAdminSettings</servlet-name>
+	<servlet-class>UpdateAdminSettings</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>UpdateAdminSettings</servlet-name>
+	<url-pattern>/UpdateAdminSettings</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>AdminSetting</servlet-name>
+	<servlet-class>AdminSetting</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>AdminSetting</servlet-name>
+	<url-pattern>/AdminSetting</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>Admin</servlet-name>
+	<servlet-class>Admin</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>Admin</servlet-name>
+	<url-pattern>/Admin</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>InternshipCheck</servlet-name>
+	<servlet-class>InternshipCheck</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>InternshipCheck</servlet-name>
+	<url-pattern>/InternshipCheck</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>AlreadyApplied</servlet-name>
+	<servlet-class>AlreadyApplied</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>AlreadyApplied</servlet-name>
+	<url-pattern>/AlreadyApplied</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>SNotieServlet</servlet-name>
+	<servlet-class>SNotieServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>SNotieServlet</servlet-name>
+	<url-pattern>/SNotieServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>Rejected</servlet-name>
+	<servlet-class>Rejected</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>Rejected</servlet-name>
+	<url-pattern>/Rejected</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>Shortlist</servlet-name>
+	<servlet-class>Shortlist</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>Shortlist</servlet-name>
+	<url-pattern>/Shortlist</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+    <servlet-name>EResumeOpen</servlet-name>
+	<servlet-class>EResumeOpen</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>EResumeOpen</servlet-name>
+	<url-pattern>/EResumeOpen</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+    <servlet-name>ViewApplication</servlet-name>
+	<servlet-class>ViewApplication</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>ViewApplication</servlet-name>
+	<url-pattern>/ViewApplication</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>ApplyIntern</servlet-name>
+	<servlet-class>ApplyIntern</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>ApplyIntern</servlet-name>
+	<url-pattern>/ApplyIntern</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>DeleteInternship</servlet-name>
+	<servlet-class>DeleteInternship</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>DeleteInternship</servlet-name>
+	<url-pattern>/DeleteInternship</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>EInternshipUpdate</servlet-name>
+	<servlet-class>EInternshipUpdate</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>EInternshipUpdate</servlet-name>
+	<url-pattern>/EInternshipUpdate</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>EInternshipEdit</servlet-name>
+	<servlet-class>EInternshipEdit</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>EInternshipEdit</servlet-name>
+	<url-pattern>/EInternshipEdit</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>EInternshipView</servlet-name>
+	<servlet-class>EInternshipView</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>EInternshipView</servlet-name>
+	<url-pattern>/EInternshipView</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>InternshipView2</servlet-name>
+	<servlet-class>InternshipView2</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>InternshipView2</servlet-name>
+	<url-pattern>/InternshipView2</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>Front</servlet-name>
+	<servlet-class>Front</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>Front</servlet-name>
+	<url-pattern>/Front</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+    <servlet-name>InternSearch2</servlet-name>
+	<servlet-class>InternSearch2</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>InternSearch2</servlet-name>
+	<url-pattern>/InternSearch2</url-pattern>
+</servlet-mapping>
+
+
+
+<servlet>
+    <servlet-name>TrashMessagesManage</servlet-name>
+	<servlet-class>TrashMessagesManage</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>TrashMessagesManage</servlet-name>
+	<url-pattern>/TrashMessagesManage</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>MessagesManage</servlet-name>
+	<servlet-class>MessagesManage</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>MessagesManage</servlet-name>
+	<url-pattern>/MessagesManage</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+    <servlet-name>MessagesTrashServlet</servlet-name>
+	<servlet-class>MessagesTrashServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>MessagesTrashServlet</servlet-name>
+	<url-pattern>/MessagesTrashServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>MessagesDraftServlet</servlet-name>
+	<servlet-class>MessagesDraftServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>MessagesDraftServlet</servlet-name>
+	<url-pattern>/MessagesDraftServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>MessagesSentServlet</servlet-name>
+	<servlet-class>MessagesSentServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>MessagesSentServlet</servlet-name>
+	<url-pattern>/MessagesSentServlet</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+    <servlet-name>MessageSend</servlet-name>
+	<servlet-class>MessageSend</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>MessageSend</servlet-name>
+	<url-pattern>/MessageSend</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>MessagesServlet</servlet-name>
+	<servlet-class>MessagesServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>MessagesServlet</servlet-name>
+	<url-pattern>/MessagesServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>EUpdateProfile</servlet-name>
+	<servlet-class>EUpdateProfile</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>EUpdateProfile</servlet-name>
+	<url-pattern>/EUpdateProfile</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>ESettings</servlet-name>
+	<servlet-class>ESettings</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>ESettings</servlet-name>
+	<url-pattern>/ESettings</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>EducatorProfile</servlet-name>
+	<servlet-class>EducatorProfile</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>EducatorProfile</servlet-name>
+	<url-pattern>/EducatorProfile</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>InternshipView</servlet-name>
+	<servlet-class>InternshipView</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>InternshipView</servlet-name>
+	<url-pattern>/InternshipView</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>EditResumeUpdate</servlet-name>
+	<servlet-class>EditResumeUpdate</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>EditResumeUpdate</servlet-name>
+	<url-pattern>/EditResumeUpdate</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>UpdateProfile</servlet-name>
+	<servlet-class>UpdateProfile</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>UpdateProfile</servlet-name>
+	<url-pattern>/UpdateProfile</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>Logout</servlet-name>
+	<servlet-class>Logout</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>Logout</servlet-name>
+	<url-pattern>/Logout</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>InternshipPost</servlet-name>
+	<servlet-class>InternshipPost</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>InternshipPost</servlet-name>
+	<url-pattern>/InternshipPost</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>EducatorServlet</servlet-name>
+	<servlet-class>EducatorServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>EducatorServlet</servlet-name>
+	<url-pattern>/EducatorServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>EditResumeServlet</servlet-name>
+	<servlet-class>EditResumeServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>EditResumeServlet</servlet-name>
+	<url-pattern>/EditResumeServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>MessageServlet</servlet-name>
+	<servlet-class>MessageServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>MessageServlet</servlet-name>
+	<url-pattern>/MessageServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>NotieServlet</servlet-name>
+	<servlet-class>NotieServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>NotieServlet</servlet-name>
+	<url-pattern>/NotieServlet</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+    <servlet-name>Settings</servlet-name>
+	<servlet-class>Settings</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>Settings</servlet-name>
+	<url-pattern>/Settings</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>Profile</servlet-name>
+	<servlet-class>Profile</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>Profile</servlet-name>
+	<url-pattern>/Profile</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>HelloServlet</servlet-name>
+	<servlet-class>HelloServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>HelloServlet</servlet-name>
+	<url-pattern>/HelloServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>HtmlServlet</servlet-name>
+	<servlet-class>HtmlServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>HtmlServlet</servlet-name>
+	<url-pattern>/HtmlServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>PackageServlet</servlet-name>
+	<servlet-class>P1.PackageServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>PackageServlet</servlet-name>
+	<url-pattern>/P1.PackageServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>HelloServlet1</servlet-name>
+	<servlet-class>HelloServlet1</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>HelloServlet1</servlet-name>
+	<url-pattern>/HelloServlet1</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>SignInServlet</servlet-name>
+	<servlet-class>SignInServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>SignInServlet</servlet-name>
+	<url-pattern>/SignInServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>UserDatabase</servlet-name>
+	<servlet-class>UserDatabase</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>UserDatabase</servlet-name>
+	<url-pattern>/UserDatabase</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+    <servlet-name>LoginCheck</servlet-name>
+	<servlet-class>LoginCheck</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>LoginCheck</servlet-name>
+	<url-pattern>/LoginCheck</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>LoginServlet</servlet-name>
+	<servlet-class>LoginServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>LoginServlet</servlet-name>
+	<url-pattern>/LoginServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>ResumeServlet</servlet-name>
+	<servlet-class>ResumeServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>ResumeServlet</servlet-name>
+	<url-pattern>/ResumeServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>SearchServlet</servlet-name>
+	<servlet-class>SearchServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>SearchServlet</servlet-name>
+	<url-pattern>/SearchServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>InternSearch</servlet-name>
+	<servlet-class>InternSearch</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>InternSearch</servlet-name>
+	<url-pattern>/InternSearch</url-pattern>
+</servlet-mapping>
+
+
+
+</web-app>

@@ -1,0 +1,183 @@
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Resume</title>
+<link type="text/css" rel="stylesheet" href="css/blue.css" />
+<link type="text/css" rel="stylesheet" href="css/print.css" media="print"/>
+<!--[if IE 7]>
+<link href="css/ie7.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!--[if IE 6]>
+<link href="css/ie6.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.tipsy.js"></script>
+<script type="text/javascript" src="js/cufon.yui.js"></script>
+<script type="text/javascript" src="js/scrollTo.js"></script>
+<script type="text/javascript" src="js/myriad.js"></script>
+<script type="text/javascript" src="js/jquery.colorbox.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+<script type="text/javascript">
+		Cufon.replace('h1,h2');
+</script>
+
+<style>
+input[name="name"]{position:relative;left:20%;bottom:45px;}
+input[name="specialty"]{position:relative;left:20%;bottom:40px;}
+input[name="address"]{position:relative;left:10%;bottom:37px;}
+input[name="email"]{position:relative;left:10%;bottom:37px;}
+input[name="phone"]{position:relative;left:10%;bottom:37px;}
+input[name="website"]{position:relative;left:10%;bottom:37px;}
+input[name="objective"]{position:relative;left:-10%;bottom:6px;width:450px;height:70px;}
+input[name="year_s"]{position:relative;left:100%;bottom:;}
+input[name="school"]{position:relative;left:-20%;bottom:;}
+input[name="year_c"]{position:relative;left:100%;bottom:20px;}
+input[name="college"]{position:relative;left:-20%;bottom:20px;}
+input[name="branch"]{position:relative;left:;bottom:-10px;}
+textarea[name="text1"]{position:relative;left:5%;bottom:;width:500px;}
+input[name="s1"]{position:relative;left:-20%;bottom:8px;}
+input[name="s2"]{position:relative;left:13.3%;bottom:-15px;}
+input[name="s3"]{position:relative;left:46.5%;bottom:-38px;}
+input[name="s4"]{position:relative;left:220%;bottom:46px;}
+a[class="more"]{position:relative;left:85%;bottom:-2px;}
+input[name="l1"]{position:relative;left:-20%;bottom:;}
+input[name="l2"]{position:relative;left:13.3%;bottom:-20px;}
+input[name="l3"]{position:relative;left:46.5%;bottom:-40px;}
+input[name="l4"]{position:relative;left:200%;bottom:;}
+a[class="more2"]{position:relative;left:85%;bottom:-2px;}
+input[name="p1"]{position:relative;left:-20%;bottom:8px;}
+input[name="p2"]{position:relative;left:13.3%;bottom:-8px;}
+input[name="p3"]{position:relative;left:46.5%;bottom:-28px;}
+input[name="p4"]{position:relative;left:200%;bottom:;}
+a[class="more3"]{position:relative;left:85%;bottom:-2px;}
+input[type="file"]{position:relative;left:-75%;bottom:1370px;background:none;border:none;width:85px;}
+button[type="submit"]{position:relative;left:43%;bottom:70px;width:200px;color:#0E1855;height:30px;cursor:pointer;}
+
+
+</style>
+</head>
+<body>
+<!-- Begin Wrapper -->
+<div id="wrapper">
+<form name="form2" action="" method="get">
+<h1>Resume</h1>
+  <div class="wrapper-top"></div>
+  <div class="wrapper-mid">
+    <!-- Begin Paper -->
+    <div id="paper">
+      <div class="paper-top"></div>
+      <div id="paper-mid">
+        <div class="entry">
+          <!-- Begin Image -->
+          <img class="portrait" src="images/image.jpg" alt="John Smith"/>
+          
+          <!-- End Image -->
+          <!-- Begin Personal Information -->
+          <div class="self">
+            <h1 class="name"><input type="text" value="your full name" name="name"/> <br />
+              <span><input type="text" value="specialty" name="specialty"/></span></h1>
+            <ul>
+              <li class="ad"><input type="text" value="your permanent address"name="address"/></li><br/>
+              <li class="mail"><input type="text" value="your email" name="email"/></li><br/>
+              <li class="tel"><input type="text" value="your phone no." name="phone"/></li><br/>
+              <li class="web"><input type="text" value="your website if any(separated by commas" name="website"/></li><br/>
+            </ul>
+          </div>
+          <!-- End Personal Information -->
+          <!-- Begin Social -->
+          <div class="social">
+            <ul>
+              <li><a class='north' href="#" title="Download .pdf"><img src="images/icn-save.jpg" alt="Download the pdf version" /></a></li>
+              <li><a class='north' href="javascript:window.print()" title="Print"><img src="images/icn-print.jpg" alt="" /></a></li>
+              <li><a class='north' id="contact" href="contact/index.html" title="Contact Me"><img src="images/icn-contact.jpg" alt="" /></a></li>
+              <li><a class='north' href="#" title="Follow me on Twitter"><img src="images/icn-twitter.jpg" alt="" /></a></li>
+              <li><a class='north' href="#" title="My Facebook Profile"><img src="images/icn-facebook.jpg" alt="" /></a></li>
+            </ul>
+          </div>
+          <!-- End Social -->
+        </div>
+        <!-- Begin 1st Row -->
+        <div class="entry">
+          <h2>OBJECTIVE</h2>
+          <p><input type="text" value="your objective here" name="objective"/></p>
+        </div>
+        <!-- End 1st Row -->
+        <!-- Begin 2nd Row -->
+        <div class="entry">
+          <h2>EDUCATION</h2>
+          <div class="content">
+            <h3><input type="text" value="school duration eg.2000-2012" name="year_s"/></h3>
+            <p><input type="text" value="School name" name="school"/> <br />
+              </p>
+          </div>
+          <div class="content">
+            <h3><input type="text" value="college duration eg.2000-2012" name="year_c"/></h3>
+            <p><input type="text" value="College name" name="college"/><br />
+              <em><input type="text" value="Branch" name="branch"/></em></p>
+          </div>
+        </div>
+        <!-- End 2nd Row -->
+        <!-- Begin 3rd Row -->
+        <div class="entry">
+          <h2>EXPERIENCE</h2>
+         <textarea cols="70" rows="10" value="" name="text1" value="enter your experiences by sequence no."></textarea>
+        </div>
+        <!-- End 3rd Row -->
+        <!-- Begin 4th Row -->
+         <div class="entry">
+          <h2>SKILLS</h2>
+          <div class="content">
+            <h3>Software Knowledge</h3>
+            
+              <input type="text" value="enter software" name="s1"/><br/>
+              <input type="text" value="enter software"  name="s2"/><br/>
+              <input type="text" value="enter software"  name="s3"/><br/>
+         <input type="text" value="enter software"  name="s4"/><br/>
+              <a class="more" href="#">add more..</a><br/>
+          
+           
+          </div>
+          <div class="content">
+            <h3>Languages</h3>
+            
+             <input type="text" value="enter known languages" name="l1"/><br/>
+              <input type="text" value="enter known languages" name="l2"/><br/>
+              <input type="text" value="enter known languages" name="l3"/><br/>
+              <input type="text" value="enter known languages" name="l4"/><br/>
+             <a  class="more2" href="#">add more..</a><br/>
+           
+          </div>
+        </div>
+        <!-- End 4th Row -->
+         <!-- Begin 5th Row -->
+        <div class="entry">
+        <h2>Projects</h2>
+        	<ul class="projects">
+              <li><input type="text" value="project" name="p1"/></li><br/>
+              <li><input type="text" value="project" name="p2"/></li><br/>
+               <li><input type="text" value="project" name="p3"/></li><br/>
+                <li><input type="text" value="project" name="p4"/></li><br/>
+                <li><a   class="more3" href="#">add more..</a></li><br/>
+                
+            </ul>
+        	
+        </div>
+        <!-- Begin 5th Row -->
+      </div>
+      <div class="clear"></div>
+      <div class="paper-bottom"></div>
+    </div>
+    <input type="file"/>
+     <button type="submit">submit</button>
+     </form>
+    <!-- End Paper -->
+  </div>
+  <div class="wrapper-bottom"></div>
+</div>
+<div id="message"><a href="#top" id="top-link">Go to Top</a></div>
+<!-- End Wrapper -->
+
+
+</body>
+</html>
